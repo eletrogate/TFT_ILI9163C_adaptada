@@ -1030,6 +1030,8 @@ void TFT_ILI9163C::setAddrWindow(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t
 		_setAddrWindow(x0,y0,x1,y1);
 		SPI.endTransaction();
 	#else
+    x0 += 2;
+    x1 += 2;
 		writecommand(CMD_CLMADRS); // Column
 		if (rotation == 0 || rotation > 1){
 			writedata16(x0);

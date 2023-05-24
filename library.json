@@ -1,11 +1,11 @@
 {
   "name": "TFT_ILI9163",
   "keywords": "display, tft, graphics, spi",
-  "description": "A fast SPI driver for TFT drived by ILI9163C, fully SPI Transaction compatible and very fast with Teensy 3",
+  "description": "https://github.com/sumotoy/TFT_ILI9163C adaptada para https://www.eletrogate.com/display-lcd-tft-144-128128",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/sumotoy/TFT_ILI9163C.git"
+    "url": "https://github.com/eletrogate/TFT_ILI9163C_adaptada.git"
   },
   "exclude": "_utility",
   "frameworks": "arduino",
